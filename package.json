@@ -1,0 +1,15 @@
+{
+    "name": "TabFloater-Feedback",
+    "version": "1.0.0",
+    "description": "Dedicated repository for TabFloater users to create Issues/Requests for New Features, Bugs, etc.",
+    "main": "transfer_issues.ps1",
+    "scripts": {
+        "transfer": "powershell -File ./transfer_issues.ps1",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "JusstewaSNSJ",
+    "license": "ISC",
+    "dependencies": {
+        "node": "^21.2.0"
+    }
+}
